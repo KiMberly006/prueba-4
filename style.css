@@ -1,11 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0%;
 }
 
 .nav {
     background-color: rgba(0, 0, 0, 0.2);; 
     height: 50px;
-    width: 1850px; 
+    width: 1800px; 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,6 +21,20 @@ body {
     align-items: center;
     list-style-type: none;
     justify-content: space-around;
+    
+}
+
+.container #logo {
+    width: 140px;
+    margin: 15px 30px 4px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container{
+    background-image: url("img/banner.jpg");
+    background-repeat: no-repeat;
+    padding: 1% 1% 100% 1%;
+    margin: 0% 0% 100% 0%;
 }
 
 .nav-links a {
@@ -28,22 +43,62 @@ body {
     font-weight: bold;
 }
 
-.nav-img{
-    position: relative;
-
-
-}
-
 .btn {
     height: 35px;
     width: 100px;
-    background-color: #000000;
+    background-color: #0000002a;
     color: #ffffff;
     border: none;
     font-size: 16px;
-    box-shadow: 5px 5px #000000;
+    box-shadow: 5px 5px #0000002a;
+}
+
+.icons {
+    flex-direction: column;
+    display: inline-flex;
+    justify-content: flex-end;
+    
+    
+}
+
+section .content .btns .btn {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #1573a4;
+    text-shadow: none;
+    color: white;
+    margin: 0;
+    padding: 0.40em 1.50em 0.245em;
+}
+
+section .content h1 {
+    color: white;
+    text-align: left;
+    font-size: 50px;
+    
+}
+
+section .content h3 {
+    color: white;
+    text-align: left;
+}
+
+section .content {
+    padding-left: 8.5%;
+    padding-top: 16%;
+}
+
+img {
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .img-port {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px ;
+    
 }
+
+
