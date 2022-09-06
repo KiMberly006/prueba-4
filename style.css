@@ -32,8 +32,8 @@ body {
 .container{
     background-image: url("img/banner.jpg");
     background-repeat: no-repeat;
-    padding: 1% 1% 100% 1%;
-    margin: 0% 0% 100% 0%;
+    padding: 1% 1% 5% 1%;
+    margin: 0% 0% 5% 0%;
 }
 
 .nav-links a {
@@ -54,11 +54,18 @@ body {
 }
 
 .icons {
+    position: fixed;
+    left: 0%;
+    top: 30%;
+    display: flex;
+    align-items: flex-end;
     flex-direction: column;
-    display: inline-flex;
-    justify-content: flex-end;
+    padding-left: 0.9%;
 }
-
+li{
+    text-decoration: none;
+    list-style: none;
+}
 section .content .btns .btn {
     position: relative;
     display: inline-block;
@@ -69,6 +76,8 @@ section .content .btns .btn {
     margin: 0;
     padding: 0.40em 1.5em 0.245em;
 }
+
+
 
 section .content h1 {
     color: white;
@@ -95,8 +104,14 @@ img {
 .img-port {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px ;
-    
+    margin:5% ;
 }
 
+.text{
+    display: flex;
+}
 
+.text #box{
+    padding-left: 2%;
+    padding-right: 2%;
+}
